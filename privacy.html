@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for the personal-use Studio Save backup utility.">
+  <title>Privacy Policy · Studio Save</title>
+  <style>
+    :root { color-scheme: light; --ink:#20243a; --muted:#5d647c; --accent:#5b50d6; --line:#e5e6f0; --wash:#f5f5fc; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 36px)); margin:54px auto; }
+    article { background:#fff; border:1px solid var(--line); border-radius:22px; padding:clamp(26px,6vw,58px); }
+    .mark { color:var(--accent); font-size:13px; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:.35em 0; font-size:clamp(34px,6vw,48px); line-height:1.12; letter-spacing:-.035em; }
+    h2 { margin:30px 0 6px; font-size:20px; }
+    p, li { color:var(--muted); }
+    a { color:var(--accent); text-underline-offset:3px; }
+  </style>
+</head>
+<body>
+  <main><article>
+    <div class="mark"><a href="index.html">Studio Save</a></div>
+    <h1>Privacy Policy</h1>
+    <p>Effective 11 November 2026</p>
+    <p>Studio Save is a personal backup utility maintained for use by its owner. It is not a public service and does not have other users.</p>
+    <h2>Project and backup data</h2>
+    <p>The utility reads project files selected by its owner to create backups. Restic encrypts backup contents on the owner's computer before they are copied to secondary storage. The owner controls the backup repositories and their encryption password. The website does not receive project files, backup contents, passwords, or recovery keys.</p>
+    <h2>Google Drive</h2>
+    <p>If the owner enables the Google Drive connection, Studio Save uses Google's Drive API only to store and retrieve the owner's encrypted backup repository data. The OAuth permission is limited to files made by or explicitly opened for the application. Google account data is not sold, used for advertising, or shared with other people by Studio Save. The owner can revoke the application's access through their Google Account.</p>
+    <h2>Authentication information</h2>
+    <p>The Google authorization token is kept in the owner's local rclone configuration, protected by the owner's macOS account permissions. It is not placed on this website or included in backup contents.</p>
+    <h2>This website</h2>
+    <p>These pages have no sign-in, contact form, analytics, or embedded third-party scripts. GitHub Pages hosts the site and may process technical information such as connection logs to provide and protect the hosting service; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub's Privacy Statement</a>.</p>
+    <h2>Changes and revocation</h2>
+    <p>This policy may be updated if the utility's data practices change. The owner may revoke Google access at any time from their Google Account security settings.</p>
+    <p><a href="index.html">Home</a> · <a href="terms.html">Terms</a></p>
+  </article></main>
+</body>
+</html>
