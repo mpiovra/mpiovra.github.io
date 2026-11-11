@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Studio Save is a personal utility for creating encrypted, versioned backups of creative and software projects.">
+  <title>Studio Save Backup</title>
+  <style>
+    :root { color-scheme: light; --ink:#20243a; --muted:#5d647c; --accent:#5b50d6; --line:#e5e6f0; --wash:#f5f5fc; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 36px)); margin:72px auto; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:22px; padding:clamp(26px,6vw,58px); box-shadow:0 16px 50px #29235b0d; }
+    .mark { color:var(--accent); font-size:13px; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:.35em 0 .2em; font-size:clamp(38px,7vw,58px); line-height:1.08; letter-spacing:-.04em; }
+    .lead { color:var(--muted); font-size:19px; max-width:58ch; }
+    h2 { margin:36px 0 8px; font-size:21px; }
+    p { margin:10px 0; }
+    .links { display:flex; gap:20px; margin-top:30px; flex-wrap:wrap; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    footer { color:var(--muted); font-size:13px; margin-top:24px; }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="mark">Personal backup utility</div>
+      <h1>Studio Save</h1>
+      <p class="lead">A private command-line tool for creating encrypted, versioned checkpoints of creative and software projects.</p>
+      <h2>What it does</h2>
+      <p>Studio Save keeps recoverable project snapshots on the owner's computer and can copy encrypted backup data to owner-managed storage. Backup contents are encrypted before they leave the computer. The Google Drive connection, when enabled, is used only for storing that encrypted backup data.</p>
+      <p>Studio Save is maintained for personal use by one owner. It is not a hosted backup service and is not offered to other users.</p>
+      <nav class="links" aria-label="Policies">
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </article>
+    <footer>Studio Save Backup · Personal-use project</footer>
+  </main>
+</body>
+</html>
